@@ -1,0 +1,22 @@
+import tkinter
+root=tkinter.Tk()
+l3=tkinter.Label(root,text="Login Page")
+l3.pack
+l1=tkinter.Label(root,text="Usename:-")
+l1.pack()
+e1=tkinter.Entry(root)
+e1.pack()
+l2=tkinter.Label(root,text="password:-")
+l2.pack()
+e2=tkinter.Entry(root)
+e2.pack()
+b1=tkinter.Button(root,text="login", fg="blue", command="login")
+b1.pack()
+l1.place(x=500,y=300)
+e1.place(x=600,y=300)
+l2.place(x=500,y=330)
+e2.place(x=600,y=330)
+b1.place(x=580,y=360)
+l3.place(x=550,y=280)
+
+root.mainloop()
